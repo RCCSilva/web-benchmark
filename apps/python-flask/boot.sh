@@ -3,4 +3,4 @@
 set -e
 
 source venv/bin/activate
-exec gunicorn -b :3000 app:app
+exec gunicorn --workers=4 -b :3000 app:app
