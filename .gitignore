@@ -8,4 +8,4 @@ out/
 bin/
 .terraform.lock.hcl
 .terraform/
-vscode/
+.vscode/
