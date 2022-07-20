@@ -1,0 +1,21 @@
+{
+  "language": {
+    "name": "Node",
+    "version": "16"
+  },
+  "packages": [
+    {
+      "name": "Fastify",
+      "version": "3.29.0"
+    },
+    {
+      "name": "Typeorm",
+      "version": "0.3.6"
+    },
+    {
+      "name": "pg",
+      "version": "8.7.3"
+    }
+  ],
+  "database": true
+}

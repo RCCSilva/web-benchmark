@@ -1,0 +1,13 @@
+{
+  "language": {
+    "name": "Python",
+    "version": "3.9.3"
+  },
+  "packages": [
+    {
+      "name": "Fastapi",
+      "version": "0.78.0"
+    }
+  ],
+  "database": false
+}

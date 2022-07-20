@@ -1,0 +1,21 @@
+{
+  "language": {
+    "name": "Node",
+    "version": "16"
+  },
+  "packages": [
+    {
+      "name": "Koa",
+      "version": "2.13.4"
+    },
+    {
+      "name": "Sequelize",
+      "version": "6.20.1"
+    },
+    {
+      "name": "pg",
+      "version": "8.7.3"
+    }
+  ],
+  "database": true
+}

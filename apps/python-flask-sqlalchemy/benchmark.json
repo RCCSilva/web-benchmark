@@ -1,0 +1,17 @@
+{
+  "language": {
+    "name": "Python",
+    "version": "3.9.3"
+  },
+  "packages": [
+    {
+      "name": "Flask",
+      "version": "2.1.2"
+    },
+    {
+      "name": "FlaskSQLAlchemy",
+      "version": "2.5.1"
+    }
+  ],
+  "database": true
+}

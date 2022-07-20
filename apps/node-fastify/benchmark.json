@@ -1,0 +1,13 @@
+{
+  "language": {
+    "name": "Node",
+    "version": "16"
+  },
+  "packages": [
+    {
+      "name": "Fastify",
+      "version": "3.29.1"
+    }
+  ],
+  "database": false
+}

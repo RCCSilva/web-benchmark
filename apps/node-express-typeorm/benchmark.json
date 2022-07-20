@@ -1,0 +1,21 @@
+{
+  "language": {
+    "name": "Node",
+    "version": "16"
+  },
+  "packages": [
+    {
+      "name": "Express",
+      "version": "4.18.1"
+    },
+    {
+      "name": "Typeorm",
+      "version": "0.3.6"
+    },
+    {
+      "name": "pg",
+      "version": "8.7.3"
+    }
+  ],
+  "database": true
+}

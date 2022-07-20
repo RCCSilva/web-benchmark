@@ -1,0 +1,39 @@
+{
+  "name": "web-benchmark",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "lint": "npx eslint --fix src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RCCSilva/web-benchmark.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RCCSilva/web-benchmark/issues"
+  },
+  "homepage": "https://github.com/RCCSilva/web-benchmark#readme",
+  "dependencies": {
+    "@kubernetes/client-node": "^0.16.3",
+    "@types/autocannon": "^7.6.1",
+    "autocannon": "^7.9.0",
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "pg": "^8.7.3",
+    "sequelize": "^6.20.0",
+    "ts-node": "^10.8.0",
+    "typescript": "^4.7.2",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.3",
+    "@typescript-eslint/eslint-plugin": "^5.30.6",
+    "@typescript-eslint/parser": "^5.30.6",
+    "eslint": "^8.19.0"
+  }
+}

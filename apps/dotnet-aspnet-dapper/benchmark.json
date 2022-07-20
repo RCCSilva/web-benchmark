@@ -1,0 +1,17 @@
+{
+  "language": {
+    "name": "C#",
+    "version": "10.0"
+  },
+  "packages": [
+    {
+      "name": "AspNetCore",
+      "version": "6.2.3"
+    },
+    {
+      "name": "Dapper",
+      "version": "2.0.123"
+    }
+  ],
+  "database": true
+}

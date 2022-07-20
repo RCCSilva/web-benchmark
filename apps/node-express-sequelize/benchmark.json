@@ -1,0 +1,21 @@
+{
+  "language": {
+    "name": "Node",
+    "version": "16"
+  },
+  "packages": [
+    {
+      "name": "Express",
+      "version": "4.18.1"
+    },
+    {
+      "name": "Sequelize",
+      "version": "6.20.1"
+    },
+    {
+      "name": "pg",
+      "version": "8.7.3"
+    }
+  ],
+  "database": true
+}

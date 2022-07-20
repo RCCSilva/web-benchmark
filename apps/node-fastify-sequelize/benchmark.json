@@ -1,0 +1,21 @@
+{
+  "language": {
+    "name": "Node",
+    "version": "16"
+  },
+  "packages": [
+    {
+      "name": "Fastify",
+      "version": "3.29.1"
+    },
+    {
+      "name": "Sequelize",
+      "version": "6.20.1"
+    },
+    {
+      "name": "pg",
+      "version": "8.7.3"
+    }
+  ],
+  "database": true
+}

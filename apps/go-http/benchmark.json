@@ -1,0 +1,13 @@
+{
+  "language": {
+    "name": "Go",
+    "version": "1.18"
+  },
+  "packages": [
+    {
+      "name": "http",
+      "version": "1.18"
+    }
+  ],
+  "database": false
+}
