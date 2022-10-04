@@ -6,6 +6,7 @@ import { sleep } from '../utils'
 import { createApp } from './create-app'
 import { createDatabase } from './create-database'
 
+
 const warmUp = async (nodePort: number) => {
   console.log('   Warming up...')
   await autocannon({
