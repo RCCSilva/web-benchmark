@@ -50,9 +50,10 @@ kubectl patch deployment metrics-server -n kube-system --type 'json' -p '[{"op":
 ### Running the benchmark
 
 ```shell
-npm i
-npm start
+go run ./cmd/orchestrator
 ```
+
+The orchestrator is a Go program that builds each app's Docker image (via the Docker Engine SDK) and drives Kubernetes (via `client-go`) to run it against a Postgres instance, load-test it, and record the result — the same code path works against a real cloud cluster later by pointing `kubectl`/the kubeconfig at it instead of minikube.
 
 ## Debugging
 

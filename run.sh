@@ -1,6 +1,7 @@
 #!/bin/bash
 
-set -e 
+set -e
 
 eval $(minikube docker-env)
-exec npm run start
+go build -o bin/orchestrator ./cmd/orchestrator
+exec ./bin/orchestrator
